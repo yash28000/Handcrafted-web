@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="/assets/favicon.png" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>HumAari</title>
+    
+  </head>
+  <body>
+    <nav class="h-[4rem] w-full shadow-md z-50 bg-white">
+      <div class="flex justify-start items-center mx-5 mt-3">
+        <p class="mx-3 p-3 cursor-pointer flex items-center">
+          <img src="/assets/Asset 2@4x.png" alt="" height="150" width="150" />
+        </p>
+        <ul class="flex items-center gap-7 mr-[3rem] text-lg cursor-pointer">
+          <li
+            class="hideOnMobile hover:underline active:underline focus:underline"
+          >
+            <a href="Home.html">Home</a>
+          </li>
+          <li
+            class="hideOnMobile hover:underline active:underline focus:underline"
+          >
+            <a href="Stories.html">Stories</a>
+          </li>
+          <li
+            class="hideOnMobile hover:underline active:underline focus:underline"
+          >
+            <a href="About.html"> About Us</a>
+          </li>
+          <li
+            class="hideOnMobile hover:underline active:underline focus:underline"
+          >
+            <a href="Services.html">Services</a>
+          </li>
+          <li class="menu-button" onclick="showSidebar()">
+            <a href="#" class="flex"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="26"
+                viewbox="0 96 960 960"
+                width="26"
+                class="fixed top-0 right-0 m-4"
+              >
+                <path
+                  d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"
+                />
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- sidebar -->
+
+      <ul class="sidebar">
+        <li onclick="hideSidebar()">
+          <a href="#"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="26"
+              viewbox="0 96 960 960"
+              width="26"
+              class="mb-7"
+            >
+              <path
+                d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"
+              />
+            </svg>
+          </a>
+        </li>
+        <li class="hover:underline active:underline focus:underline">
+          <a href="Home.html" class="active">Home</a>
+        </li>
+        <li class="hover:underline active:underline focus:underline">
+          <a href="Stories.html" class="active">Stories</a>
+        </li>
+        <li class="hover:underline active:underline focus:underline">
+          <a href="About.html" class="active"> About Us</a>
+        </li>
+        <li class="hover:underline active:underline focus:underline">
+          <a href="Services.html" class="active">Services</a>
+        </li>
+      </ul>
+    </nav>
+
+  <h1
+    class="flex m-auto items-center mt-7 justify-center font-bold lg:text-7xl lg:mx-[20rem] lg:p-[4rem] text-3xl p-[0.5rem]"
+  >
+    About HumAari
+  </h1>
+
+    <div
+      class="flex flex-col-reverse lg:flex-row md:flex-row mx-auto items-center justify-between gap-4"
+    >
+      <div class="container mt-16 m-auto max-w-screen-lg mx-[5rem]">
+        
+            
+              <h1 class="text-4xl font-bold mb-5">About Us:</h1>
+           
+        
+        <p class="text-lg font-medium mx-3 px-2 mt-5">
+          Welcome to Humaari, your go-to place for celebrating and supporting
+          Aari embroidery! We're all about preserving and spreading the love for
+          this beautiful craft, which thrives in Diyodar, Gujarat. Through Aari,
+          over 300 talented women in Diyodar town have found not just a job, but
+          a way to stand on their own feet and support their families. <br />
+          <br />
+          At Humaari, we cherish the age-old skills of these amazing women
+          artisans. Our mission? To shout from the rooftops about their talent
+          and dedication! The name "Humaari" says it all - it's Hindi for
+          "ours," symbolising how Aari embroidery is a treasured part of our
+          community's heritage and pride and how it has become a beloved craft
+          for women artisans. <br />
+          <br />
+          Come join us in celebrating Aari, a craft that's not just theirs, but
+          truly "ours" in every sense of the word!
+        </p>
+      </div>
+      <div>
+        <img src="/assets/IMG_9280.jpg" alt="" height="700" width="700" />
+      </div>
+    </div>
+    <div class="container mt-16 m-auto max-w-screen-lg">
+      <h1 class="text-4xl font-bold text-center">What we do-</h1>
+      <p class="text-lg font-medium mt-10 mb-10 mx-3 px-2">
+        We ask you to fill up a short form to share your order or requirements
+        with Bhikabhai who delegates work to women artisans who dedicatedly
+        practise the craft of Aari. After going through what you want and
+        considering the size of your order, your designs will be shared with the
+        artisans to be finally made, along with any necessary measurements. We
+        provide customers with the option to get customised items made or to
+        choose any product referring to our product catalogue. It is absolutely
+        up to you! So what are you waiting for? Get yours made from our talented
+        artisans now! <br />
+        <br />
+        "provide link for catalogue" or link to place order?
+      </p>
+    </div>
+
+    <div class="my-10 m-auto max-w-screen-lg">
+      <div
+        class="collections flex flex-col m-auto max-w-screen-lg md:flex-row lg:flex-row items-center justify-between gap-5"
+      >
+        <img src="/assets/bhavna ben.png" alt="" height="200" width="300" />
+        <img src="/assets/bika bhai.png" alt="" height="200" width="200"/>
+        <img src="/assets/umiya ben.png" alt="" height="200" width="200"/>
+      </div>
+      <br />
+      <br />
+      <div class="flex items-center justify-center">
+        <button
+          class="bg-[#DE3E00] text-white font-medium text-2xl rounded-3xl p-3 my-6 cursor-pointer"
+        >
+          <a href="Heroes.html">Meet Our Heros</a>
+        </button>
+      </div>
+    </div>
+
+    <!-- footer -->
+
+    <div >
+      <div class="relative ">
+        <img
+        src="/assets/footer .jpg"
+          alt=""
+          class="w-full h-[1100px] md:h-[400px] lg:h-[500px] object-cover"
+        />
+        <div class="absolute top-0 flex flex-col lg:flex-row md:flex-row justify-center items-center m-auto mx-auto mt-10 text-center gap-5 lg:gap-[5rem] lg:ml-[9rem] ">
+          <div
+            class="p-4 flex flex-col justify-between items-center md:gap-8 lg:gap-12"
+          >
+            <div class="text-center">
+              <h1 class="font-bold text-4xl md:text-3xl lg:text-4xl">
+                <img
+                  src="/assets/Asset 2@4x.png"
+                  alt=""
+                  height="200"
+                  width="400"
+                />
+              </h1>
+              <div
+                class="flex justify-center items-center gap-4 mb-8 md:mb-12 lg:mb-16 mt-3"
+              >
+              <div
+              class="border  w-10 h-10 rounded-full"
+            > <img src="/assets/whatsapp.png" alt=""></div>
+            <div
+              class="border  w-10 h-10 rounded-full"
+            > <img src="/assets/email.png" alt=""></div>
+            <div
+              class="border  w-10 h-10 rounded-full"
+            > <img src="/assets/facebook.png" alt=""></div>
+            <div
+              class="border  w-10 h-10 rounded-full"
+            > <img src="/assets/instagram.png" alt=""></div>
+              </div>
+            </div>
+          </div>
+          <div class=" flex flex-col justify-center items-center lg:-mt-[9rem]">
+            <h1 class=" text-2xl font-bold">Stories Of Our Artisans</h1>
+            <p class=" text-xl font-medium">Changing lives, one stitch at a time</p>
+          </div>
+          <div class=" flex flex-col items-center justify-center gap-2 text-center">
+            <h1 class=" text-2xl font-bold">Product Categories</h1>
+            <p>
+              <ul class=" text-xl font-medium text-center ">
+                <li class=>Bags</li>
+                <li>Skirts</li>
+                <li>Shawls</li>
+                <li>Decor</li>
+                <li>Dupatta</li>
+              </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+      <p class="font-bold text-xl m-auto ml-8">Copyright@HumAari2024</p>
+    </div>
+  </body>
+</html>

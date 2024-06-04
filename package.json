@@ -1,0 +1,12 @@
+{
+  "name": "humaari",
+  "version": "1.0.0",
+  "main": "postcss.config.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./main.css -o ./output.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "description": ""
+}
