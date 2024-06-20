@@ -5,11 +5,16 @@ pipeline {
         DOCKER_TAG = 'latest'
     }
     stages {
-        stage('Build') {
+        stage('Checkout') {
             steps {
-                sh 'npm run build'
+                checkout scm
             }
-        }
+        }       
+        // stage('Build') {
+        //     steps {
+        //         sh 'npm run build'
+        //     }
+        // }
         stage('Build Docker Image') {
             steps {
                 script {
