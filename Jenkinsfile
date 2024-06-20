@@ -5,11 +5,6 @@ pipeline {
         DOCKER_TAG = 'latest'
     }
     stages {
-        stage('Checkout') {
-            steps {
-                checkout scm
-            }
-        }
         stage('Install Dependencies') {
             steps {
                 sh 'npm install'
