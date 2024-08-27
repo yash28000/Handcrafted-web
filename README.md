@@ -80,12 +80,13 @@ Follow these steps to set up the CI/CD pipeline:
 
 ## Pipeline Workflow
 
-![Pipeline Workflow](path/to/your/pipeline/image.jpg)
-
 1. **Git Commit**: Developer pushes code to the GitHub repository.
 2. **Jenkins Build**: Jenkins pulls the latest code and triggers a build.
+   ![Jenkins Build](1718645834224.jpeg)
 3. **Docker Build**: Jenkins uses Docker to create a new image.
+   ![Docker Build](1718645834000.jpeg)
 4. **Deploy to EC2**: The new Docker image is pushed to the EC2 instance.
+   ![Website on EC2](1718645836957.jpeg)
 
 ## Technologies Used
 
@@ -110,6 +111,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Your Name - [your-email@example.com](mailto:your-email@example.com)
+Your Name - [Yash Singh](mailto:yashsingh.2803@gmail.com)
 
-Project Link: [https://github.com/your-username/your-repo](https://github.com/your-username/your-repo)
+Project Link: [https://github.com/yash28000/Handcrafted-web](https://github.com/yash28000/Handcrafted-web)
